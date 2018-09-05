@@ -1,0 +1,258 @@
+@font-face {
+    src: url("Police/AvenirL.ttf");
+}
+
+@font-face {
+    src: url("Police/AvenirM.ttf");
+}
+
+.root {
+    -fx-background-color: #FFFFFF;
+}
+
+.label {
+    -fx-text-fill: #919191;
+    -fx-font-size: 110%;
+    -fx-font-family: "Avenir Light";
+    -fx-wrap-text: false;
+}
+
+.button {
+    -fx-font-family: "Avenir Light";
+    -fx-font-size: 110%;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 2 0;
+    -fx-start-margin: 10 10 10 10;
+    -fx-padding: 6 0 6 0;
+    -fx-border-radius: 4 4 4 4;
+}
+
+.button:pressed {
+    -fx-border-width: 0 0 0 0;
+    -fx-padding: 8 0 6 0;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
+
+.text-field {
+    -fx-text-fill: black;
+    -fx-font-size: 110%;
+    -fx-font-family: "Avenir Light";
+    -fx-border-width: 1;
+    -fx-border-color: #cecece;
+    -fx-background-radius: 0 ;
+    -fx-background-color: white;
+    -fx-max-height: 33;
+    -fx-min-height: 33;
+}
+
+.text-area, .text-area:focused {
+    -fx-text-fill: black;
+    -fx-font-size: 110%;
+    -fx-font-family: "Avenir Light";
+    -fx-border-width: 1;
+    -fx-border-color: #cecece;
+    -fx-background-radius: 0 ;
+    -fx-background-color: white;
+}
+
+#searchBar {
+    -fx-border-radius: 15;
+    -fx-padding: 0 30 0 30;
+    -fx-font-size: 130%;
+}
+
+#connexion {
+    -fx-background-color: #009e0f;
+    -fx-border-color: #004c07;
+}
+
+#creerCompte {
+    -fx-background-color: #9900ff;
+    -fx-border-color: #580093;
+}
+
+#mdpOublie, #retour {
+    -fx-cursor: hand;
+}
+
+#valider {
+    -fx-background-color: #009e0f;
+    -fx-border-color: #004c07;
+}
+
+#resetSettings {
+    -fx-background-color: #c9c9c9;
+    -fx-border-color: #686868;
+}
+
+#ajouterPhoto {
+    -fx-background-color: #2B77E4;
+    -fx-border-color: #20285C;
+}
+
+#separation {
+    -fx-stroke: #bfbfbf;
+}
+
+#top {
+    -fx-cursor: hand;
+}
+
+#chevron {
+    -fx-fill: grey;
+}
+
+#retour {
+    -fx-font-size: 140%;
+    -fx-text-fill: black;
+}
+
+#title {
+    -fx-font-family: "Avenir Medium";
+    -fx-font-size: 300%;
+    -fx-text-fill: black;
+}
+
+#signature {
+    -fx-text-fill: black;
+    -fx-font-weight: bolder;
+}
+
+.check-box > .box {
+    -fx-border-width: 1;
+    -fx-border-color: #cecece;
+    -fx-background-radius: 0 ;
+    -fx-background-color: white;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+    -fx-cursor: hand;
+}
+
+#acceptercond {
+    -fx-font-family: "Avenir Light";
+    -fx-font-size: 92%;
+}
+
+.check-box:selected > .box > .mark {
+    -fx-background-color: grey;
+    -fx-shape: "M 320 300 L 400 380 L 540 200 L 520 180 L 400 340 L 340 280 Z";
+}
+
+#espacesignature {
+    -fx-background-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: grey;
+}
+
+#instruction {
+    -fx-font-size: 100%;
+    -fx-text-fill: black;
+    -fx-wrap-text: true;
+}
+
+#menuBarLabel {
+    -fx-font-family: "Avenir Medium";
+    -fx-font-size: 80%;
+    -fx-text-fill: #0D0D0D;
+}
+
+#btnclassements {
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-color: #e2c422;
+    -fx-font-size: 120%;
+}
+
+#labelClassements {
+    -fx-text-fill: white;
+    -fx-font-size: 150%;
+    -fx-font-family: "Avenir Medium";
+}
+
+#selectedcomment {
+    -fx-background-radius: 20 20 20 20;
+    -fx-background-color: linear-gradient(#31F280, #223E61);
+}
+
+#skip {
+    -fx-font-size: 120%;
+    -fx-cursor: hand;
+}
+
+#menuButton {
+    -fx-cursor: hand;
+}
+
+#userPseudo {
+    -fx-font-size: 250%;
+    -fx-font-family: "Avenir Medium";
+    -fx-text-fill: black;
+}
+
+#userLevel {
+    -fx-font-size: 140%;
+    -fx-font-family: "Avenir Medium";
+    -fx-text-fill: black;
+}
+
+#userDescription {
+    -fx-fill: grey;
+    -fx-font-size: 150%;
+}
+
+#instagramAccount, #userWebsite {
+    -fx-font-size: 200%;
+    -fx-text-fill: black;
+    -fx-font-family: "Avenir Medium";
+}
+
+#settingButton {
+    -fx-border-width: 0.7;
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+    -fx-cursor: hand;
+}
+
+#settingLabel {
+    -fx-font-size: 150%;
+    -fx-text-fill: black;
+}
+
+#category {
+    -fx-border-width: 1 0 1 0;
+    -fx-border-color: #595959;
+}
+
+#categoryLabel {
+    -fx-font-size: 170%;
+    -fx-text-fill: black;
+}
+
+#commentTitle {
+    -fx-font-size: 160%;
+    -fx-text-fill: black;
+    -fx-font-family: "Avenir Medium";
+}
+
+#commentText {
+    -fx-font-size: 170%;
+    -fx-text-fill: #595959;
+}
+
+#commentContent {
+    -fx-font-size: 130%;
+    -fx-text-fill: black;
+}
+
+#pseudoComment {
+    -fx-font-size: 200%;
+    -fx-font-family: "Avenir Medium";
+    -fx-text-fill: black;
+}
+
+#lvlComment {
+    -fx-font-size: 140%;
+    -fx-text-fill: black;
+}
